@@ -1,3 +1,3 @@
 print "hello class of 2018"
-print 3 + 4 + 222
-print "Misho was here"
+print 3 + 4 + 11 + 222
+print "Kiro and Misho were here"
