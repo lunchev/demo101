@@ -1,5 +1,5 @@
 tova e testov file A
-asdf
+asdf i tuk ima promiana
 asdas promeneno ot Vassil i Ivan
 bvaas dasdfa
 sdf
@@ -8,4 +8,4 @@ asdfasdfa asdfasdf test 2016
 
 
 Znaete li che i 2019 sym pisal tuk
-SAMO CSKA
+SAMO CSKA ILI SMYRT
