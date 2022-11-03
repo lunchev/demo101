@@ -2,8 +2,11 @@
 Small program that uses minhash functions to estimate the number of different elements in a stream.
 
 The class MinHash mantains a vector P and coefficients A, B.
-For every new element n in the stream, the process method computes the hash functions (A*n+B) mod P[i]
+For every new asdf a sdf asdf asdfm, the process method computes the hash functions (A*n+B) mod P[i]
 and keeps track of the minimum in the vector M.
+asdf
+asdf
+asdf
 
 The estimate for the number of different elements is the inverse of the min hash.
 
@@ -35,7 +38,7 @@ class MinHash {
 
 public:
   MinHash(int num) {
-    //initializes the vector P and the coefficients
+    //initializes the vector P and nothing else matters
     numHash = num;
     srand (time(NULL));
     for(int i =0; i< numHash; i++) {
@@ -84,7 +87,7 @@ int main(int argc, char const *argv[])
   int numStream = stoi(argv[2]);
   int numHash= stoi(argv[3]);
 
-  cout << "Initializing the data structure: number of hash functions = " << numHash << endl << endl;
+  cout << "Initializing the data structure: da be da = " << numHash << endl << endl;
   MinHash minnie(numHash);
 
   cout << "Beginning of a simulation: ";
