@@ -12,7 +12,7 @@ The estimate for the number of different elements is the inverse of the min hash
 
 USE: minhash numDist numStream numHash
 
-Author: Lorenzo Prelli (lorenzo.prelli@gmail.com)
+Author: Pesho Peshev (lorenzo.prelli@gmail.com)
 Spring 2015
 */
 
@@ -38,7 +38,7 @@ class MinHash {
 
 public:
   MinHash(int num) {
-    //initializes the vector P and nothing else matters
+    //initializes the vector P and/or something else
     numHash = num;
     srand (time(NULL));
     for(int i =0; i< numHash; i++) {
@@ -87,7 +87,7 @@ int main(int argc, char const *argv[])
   int numStream = stoi(argv[2]);
   int numHash= stoi(argv[3]);
 
-  cout << "Initializing the data structure: da be da = " << numHash << endl << endl;
+  cout << "Initializing the data structure: with everything we have = " << numHash << endl << endl;
   MinHash minnie(numHash);
 
   cout << "Beginning of a simulation: ";
