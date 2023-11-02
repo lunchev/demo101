@@ -59,9 +59,12 @@ public:
     for(int i = 0; i < P.size(); i++) {
       auto val = (A*n+B) % P[i];
       if(val < M[i])
+      {
         M[i] = val;
+      } else {
+        M[i] = 32;
+      }
     }
-
   }
 
   int estimate() {
