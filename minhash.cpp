@@ -106,10 +106,12 @@ int main(int argc, char const *argv[])
     minnie.process(rand() % (numDist));
   }
 
-  cout << "I'm done!" << endl<< endl;
+  cout << "I'm not done!" << endl<< endl;
 
   cout << "The estimate is " << minnie.estimate() << endl << endl;
   cout << "The true value is " << numDist << endl;
+
+  cout << "Gosho was here" << endl;
 
 
   return 0;
