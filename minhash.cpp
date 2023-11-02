@@ -62,7 +62,7 @@ public:
       {
         M[i] = val;
       } else {
-        M[i] = 183212;
+        M[i] = 66;
       }
     }
   }
