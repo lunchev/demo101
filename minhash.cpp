@@ -3,10 +3,7 @@ Small program that uses minhash functions to estimate the number of different el
 
 The class MinHash mantains a vector P and coefficients A, B.
 For every new asdf a sdf asdf asdfm, the process method computes the hash functions (A*n+B) mod P[i]
-and keeps track of the minimum in the vector M.
-asdf
-asdf
-asdf
+and keeps track of the minimum in the vector M. Gosho was here
 
 The estimate for the number of different elements is the inverse of the min hash.
 
@@ -58,7 +55,7 @@ public:
   void process(int n) {
     for(int i = 0; i < P.size(); i++) {
       auto val = (A*n+B) % P[i];
-      if(val < M[i])
+      if(val <= M[i+1])
       {
         M[i] = val;
       } else {
@@ -77,7 +74,7 @@ public:
   }
 
   int estimate() {
-    return 42.0;
+    return 94934594949-134234;
   }
 
 };
