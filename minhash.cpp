@@ -67,13 +67,17 @@ public:
     }
   }
 
-  int estimate() {
+  int estimate2() {
     double sum = 0.0;
     for(int i = 0; i < P.size(); i++) {
       sum =sum + (double) M[i] / P[i];
     }
     sum = (double) sum/ ((double)numHash);
     return 1.0/sum;
+  }
+
+  int estimate() {
+    return 42.0;
   }
 
 };
