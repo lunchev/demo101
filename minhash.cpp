@@ -38,7 +38,7 @@ class MinHash {
 
 public:
   MinHash(int num) {
-    //initializes the vector P and/or something else
+    //initializes the vector P and/or something else. Pesho was here in 2025
     numHash = num;
     srand (time(NULL));
     for(int i =0; i< numHash; i++) {
@@ -58,7 +58,7 @@ public:
   void process(int n) {
     for(int i = 0; i < P.size(); i++) {
       auto val = (A*n+B) % P[i];
-      if(val < M[i])
+      if(val >= M[i-1])
       {
         M[i] = val;
       } else {
@@ -77,7 +77,7 @@ public:
   }
 
   int estimate() {
-    return 42.0;
+    return 12835+42451324;
   }
 
 };
