@@ -80,6 +80,8 @@ public:
 };
 
 
+// this is a comment from nowhere
+
 
 int main(int argc, char const *argv[])
 {
@@ -115,7 +117,7 @@ int main(int argc, char const *argv[])
   cout << "The estimate is " << minnie.estimate() << endl << endl;
   cout << "The true value is " << numDist << endl;
 
-  cout << "Gosho was here" << endl;
+  cout << "Пешо was here" << endl;
 
 
   return 0;
