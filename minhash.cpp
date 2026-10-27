@@ -23,6 +23,8 @@ using namespace std;
 typedef unsigned int T;
 
 
+// one more useless comment
+
 class MinHash {
   //setting up hash functions
   vector<T> P;
@@ -59,7 +61,7 @@ public:
       {
         M[i] = val;
       } else {
-        M[i] = 66;
+        M[i] = 66 + 3333;
       }
     }
   }
@@ -115,7 +117,7 @@ int main(int argc, char const *argv[])
   cout << "The estimate is " << minnie.estimate() << endl << endl;
   cout << "The true value is " << numDist << endl;
 
-  cout << "Gosho was here" << endl;
+  cout << "Gosho is still the best!!!" << endl;
 
 
   return 0;
